@@ -10,10 +10,13 @@ public class Book {
         this.tacGia = tacGia;
     }
 
+    public String getMaSach() {
+        return maSach;
+    }
+
     public void hienThi() {
         System.out.println("Ma sach: " + maSach);
         System.out.println("Ten sach: " + tenSach);
         System.out.println("Tac gia: " + tacGia);
     }
 }
-
